@@ -1,0 +1,402 @@
+/* ====== Title styling ====== */
+.titleContanier {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 16%;
+  left: 6%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  font-weight: bolder;
+  padding-right: 4px;
+}
+
+.titleNew {
+  display: flex;
+  margin-top: 6%;
+  color: red;
+  font-weight: bold;
+}
+
+.titleHow {
+  display: flex;
+  position: absolute;
+  top: 20.8%;
+  left: 6.5%;
+  color: blue;
+  text-decoration: underline;
+}
+
+.titleHow:hover {
+  cursor: pointer;
+}
+
+/* ====== Compare Boxes ====== */
+.compareListTitle{
+  display: flex;
+  position: absolute;
+  top: -47%;
+  left: 2%;
+  font-weight: 600;
+}
+
+.compareBoxContainer {
+  display: flex;
+  position: absolute;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  width: auto;
+  height: auto;
+  top: 16%;
+  right: 5%;
+}
+
+.compareBoxList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 90px;
+  margin-left: 2%;
+  border-radius: 20%;
+  border-color: lightgrey;
+  border-style: dashed;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.compareBoxList:hover {
+  cursor: pointer;
+}
+
+.compareBoxList img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.boxCompareBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  margin-left: 2%;
+  border-radius: 5px;
+  width: auto;
+  font-size: small;
+  /* font-weight: bold; */
+  color: blue;
+  border-color: blue;
+}
+
+/* ====== Wishlist Box ====== */
+.wishlistContainer {
+  display: flex;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  width: 93%;
+  top: 24%;
+  left: 3.5%;
+  /* background-color: lightblue; */
+  border-color: lightgray;
+  border-style: solid;
+  border-radius: 15px;
+}
+
+/* === Wishlist Display === */
+.wishlistDisplay {
+  display: flex;
+  width: 55%;
+}
+
+/* displayed item image */
+.wishlistDisplayItemImg {
+  display: block;
+  background-color: lightcoral;
+  margin-top: 2%;
+  width: 5.5cm;
+  height: 5.5cm;
+  margin-left: 2%;
+}
+
+/* displayed item details */
+.displayItemDetails {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+}
+
+.displayProductTitle {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  margin: 0%;
+  margin-left: 2%;
+}
+
+.displayCloseTime {
+  text-align: left;
+  font-size: 80%;
+  font-weight: 500;
+  margin: 0%;
+  margin-left: 2%;
+}
+
+.displayTimeLeft {
+  text-align: left;
+  font-size: 80%;
+  font-weight: 500;
+  margin: 0%;
+  margin-left: 2%;
+}
+
+.displayShipping {
+  text-align: left;
+  color: rgba(0, 181, 23, 1);
+  font-size: 80%;
+  margin: 0%;
+  margin-left: 2%;
+}
+
+.displayProductInfo {
+  text-align: left;
+  font-size: 80%;
+  font-weight: 500;
+  margin: 0%;
+  margin-left: 2%;
+  width: auto;
+}
+
+/* buttons */
+.compBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 30px;
+  font-weight: 500;
+  border-color: blue;
+  border-width: 2px;
+  color: blue;
+  margin: 1%;
+  margin-top: 15%;
+  text-align: center;
+}
+
+.wishBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 30px;
+  font-weight: 500;
+  border-color: blue;
+  border-width: 2px;
+  color: blue;
+  margin: 1%;
+  text-align: center;
+}
+
+/* === Wishlist array === */
+.overflow::-webkit-scrollbar {
+  display: none;
+}
+
+.overflow {
+  display: grid;
+  margin-right: 6%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 10px;
+  overflow-y: scroll;
+  max-height: 200px;
+  width: 16cm;
+  margin-left: auto;
+  margin-bottom: 2%;
+}
+
+/* this is the now "Recently Viewed:" header */
+.wishlistItemList {
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+  margin-left: auto;
+  margin-bottom: 0.5%;
+}
+
+/* wishlist itme box */
+.wishlistItem {
+  display: flex;
+  background-color: rgba(217, 217, 217, 1);
+  justify-content: center;
+  border: 1px solid rgba(217, 217, 217, 1);
+  border-radius: 5px;
+  padding: 10px;
+  width: 6cm;
+}
+
+.wishlistItem:hover {
+  cursor: pointer;
+}
+
+.wishlistItemImg {
+  width: 2.5cm;
+  height: 2.5cm;
+}
+
+/* Wishlist item details */
+.wishlistItemDetails {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+}
+
+.productTitle {
+  font-size: 90%;
+  font-weight: bold;
+  text-align: left;
+  margin: 0%;
+  margin-left: 2%;
+}
+
+.price {
+  text-align: left;
+  font-size: 80%;
+  font-weight: 500;
+  margin: 0%;
+  margin-left: 2%;
+}
+
+.shipping {
+  text-align: left;
+  color: rgba(0, 181, 23, 1);
+  font-size: 80%;
+  margin: 0%;
+  margin-left: 2%;
+}
+
+.productInfo {
+  text-align: left;
+  font-size: 80%;
+  font-weight: 500;
+  margin: 0%;
+  margin-left: 2%;
+  width: auto;
+}
+
+.productInfoSpan {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* ====== Compare Tbale ====== */
+.tableTitle {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 46.3%;
+  left: 6%;
+  font-size: 28px;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+/* === compare table === */
+.compareTable {
+  display: grid;
+  position: absolute;
+  grid-template-columns: 1fr 3fr;
+  width: 93%;
+  height: 600px;
+  top: 50%;
+  left: 3.5%;
+  border-color: lightgray;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+/* Style for left side */
+.tableLeft {
+  display: grid;
+  grid-template-rows: repeat(6, auto);
+  border-right: 3px solid lightgrey;
+  padding-left: 3%;
+  padding-right: 1%;
+  height: 100%;
+}
+
+.tableHeader {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+/* Style for right side */
+.tableRight {
+  display: grid;
+  grid-template-rows: repeat(6, auto);
+  height: 100%;
+}
+
+.tableContent {
+  display: flex;
+  height: 100px;
+  padding-left: 1%;
+  font-weight: 450;
+  font-size: larger;
+  align-items: center;
+  padding-left: 2%;
+}
+
+/* grey backgrounds */
+#tableOdd {
+  background-color: lightgray;
+}
+
+
+/* seller profile information */
+#tableProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.userName {
+  font-size: 90%;
+  font-weight: 460;
+  text-decoration: underline;
+  text-align: left;
+  margin: 0%;
+}
+
+.userReviews {
+  font-size: 70%;
+  text-align: left;
+  margin: 0%;
+}
+
+.listingLocation {
+  font-size: 70%;
+  text-align: left;
+  margin: 0%;
+}
+
+/* Q&A btn */
+.qaBtn{
+  background-color: rgb(35, 132, 211);
+  color: white;
+}

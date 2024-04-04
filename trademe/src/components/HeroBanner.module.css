@@ -1,0 +1,166 @@
+/* ====== Logo styles ====== */
+.logo{
+    display: flex;
+    position: absolute;
+    height: 1.3cm;
+    top: 0%;
+    left: 0%;
+}
+
+/* ====== Nav Bar styles ====== */
+.navBar{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    top: 4%;
+    left: 2%;
+}
+
+.navBtn{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.navBrowse{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.hamMenuImg{
+    width: 15px;
+    height: 20px;
+    padding-right: 5px;
+}
+
+/* ====== Listings are styles ====== */
+.listings{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 3%;
+    right: 2%;
+    width: auto;
+    height: 2%;
+}
+
+.listingsImage{
+    height: 25%px;
+    width: 25%;
+}
+
+.startList{
+    display: flex;
+    align-items: center;
+}
+
+.manageList{
+    display: flex;
+    align-items: center;
+}
+
+/* ====== Search bar styles ====== */
+.searchBar{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 7.5%;
+    left: 2%;
+    /* background-color: lightcoral; */
+    border-top: 1px solid color(blue);
+    border-bottom: 1px solid color(blue);
+    width: 60%;
+    height: 5%;
+    
+}
+
+.searchFeild{
+    width: 60%;
+    height: 55%;
+    border-color: black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.dropDown{
+    display: flex;
+    align-items: center;
+    border-radius: 0%;
+    height: 65%;
+    border-color: black;
+    border-width: 2px;
+    border-left-width: 0px;
+}
+
+.searchBtn{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 0%;
+    height: 65%;
+    border-color: black;
+    border-width: 2px;
+}
+
+/* ====== Profiles Stuffs ====== */
+.profileStuff{
+    display: flex;
+    position: absolute;
+    top: 7.5%;
+    right: 5%;
+}
+
+.profileTag{
+    margin: 1%;
+}
+
+/* wishlist */
+.wishlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 7%;
+}
+
+.wishlistImg{
+    height: 30px;
+    width: 40px;
+}
+
+/* cart */
+.cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 7%;
+}
+
+.cartImg{
+    height: 30px;
+    width: 40px;
+}
+
+/* profile */
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 7%;
+}
+
+.profileImg{
+    height: 30px;
+    width: 40px;
+}
+
+/* ====== Border divs ====== */
+/* .border{
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: lightgray;
+} */
